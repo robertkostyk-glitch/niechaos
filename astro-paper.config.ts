@@ -3,7 +3,7 @@ import { defineAstroPaperConfig } from "./src/types/config";
 export default defineAstroPaperConfig({
   site: {
     author: "Niechaos",
-    desc: "Biofizyka Substratu, granice bytu i modele deterministyczne.",
+    description: "Biofizyka Substratu, granice bytu i modele deterministyczne.",
     title: "Niechaos",
     ogImage: "astropaper-og.jpg",
   },
