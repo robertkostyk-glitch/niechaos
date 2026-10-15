@@ -2,20 +2,11 @@ import { defineAstroPaperConfig } from "./src/types/config";
 
 export default defineAstroPaperConfig({
   site: {
-  website: "https://niechaos.pl/",
-  author: "Niechaos",
-  desc: "Biofizyka Substratu, granice bytu i modele deterministyczne.",
-  title: "Niechaos",
-  ogImage: "astropaper-og.jpg",
-  lightAndDarkMode: true,
-  postPerIndex: 4,
-  postPerPage: 4,
-  scheduledPostMargin: 15 * 60 * 1000,
-  showArchives: true,
-  editPost: {
-    url: "https://github.com/robertkostyk-glitch/niechaos/edit/main/src/content/blog",
-    text: "Zaproponuj zmianę",
-    appendFilePath: true,
+    website: "https://niechaos.pl/",
+    author: "Niechaos",
+    desc: "Biofizyka Substratu, granice bytu i modele deterministyczne.",
+    title: "Niechaos",
+    ogImage: "astropaper-og.jpg",
   },
   posts: {
     perPage: 4,
