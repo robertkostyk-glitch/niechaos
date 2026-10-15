@@ -17,7 +17,6 @@ export default defineAstroPaperConfig({
     text: "Zaproponuj zmianę",
     appendFilePath: true,
   },
-} as const;
   posts: {
     perPage: 4,
     perIndex: 4,
