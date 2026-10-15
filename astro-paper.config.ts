@@ -2,16 +2,22 @@ import { defineAstroPaperConfig } from "./src/types/config";
 
 export default defineAstroPaperConfig({
   site: {
-    url: "https://astro-paper.pages.dev/",
-    title: "AstroPaper",
-    description: "A minimal, responsive and SEO-friendly Astro blog theme.",
-    author: "Sat Naing",
-    profile: "https://satna.ing",
-    ogImage: "default-og.jpg",
-    lang: "en",
-    timezone: "Asia/Bangkok",
-    dir: "ltr",
+  website: "https://niechaos.pl/",
+  author: "Niechaos",
+  desc: "Biofizyka Substratu, granice bytu i modele deterministyczne.",
+  title: "Niechaos",
+  ogImage: "astropaper-og.jpg",
+  lightAndDarkMode: true,
+  postPerIndex: 4,
+  postPerPage: 4,
+  scheduledPostMargin: 15 * 60 * 1000,
+  showArchives: true,
+  editPost: {
+    url: "https://github.com/robertkostyk-glitch/niechaos/edit/main/src/content/blog",
+    text: "Zaproponuj zmianę",
+    appendFilePath: true,
   },
+} as const;
   posts: {
     perPage: 4,
     perIndex: 4,
