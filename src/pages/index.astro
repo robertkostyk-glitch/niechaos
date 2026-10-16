@@ -1,29 +1,21 @@
 ---
 import { getCollection } from "astro:content";
-import { getRelativeLocaleUrl } from "astro:i18n";
 import IconRss from "@/assets/icons/IconRss.svg";
 import IconArrowRight from "@/assets/icons/IconArrowRight.svg";
 import Layout from "@/layouts/Layout.astro";
 import Header from "@/components/Header.astro";
 import Footer from "@/components/Footer.astro";
-import Socials from "@/components/Socials.astro";
 import Card from "@/components/Card.astro";
 import LinkButton from "@/components/LinkButton.astro";
 import { getSortedPosts } from "@/utils/getSortedPosts";
-import { useTranslations } from "@/i18n";
 import config from "@/config";
 
-const { socials, posts: postsConfig } = config;
-
-const locale = Astro.currentLocale ?? config.site.lang;
-const t = useTranslations(locale);
+const { posts: postsConfig } = config;
 
 const posts = await getCollection("posts");
 const sortedPosts = getSortedPosts(posts);
 const featuredPosts = sortedPosts.filter(({ data }) => data.featured);
 const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
-
-const homePath = getRelativeLocaleUrl(locale, "");
 ---
 
 <Layout>
@@ -31,7 +23,6 @@ const homePath = getRelativeLocaleUrl(locale, "");
   <main
     id="main-content"
     data-layout="index"
-    data-home-path={homePath}
     class="app-layout my-1"
   >
     <section id="hero" class="border-border border-b pt-8 pb-6">
@@ -63,7 +54,7 @@ const homePath = getRelativeLocaleUrl(locale, "");
           <h2 class="text-2xl font-semibold tracking-wide">Wyróżnione</h2>
           <ul>
             {featuredPosts.map(post => (
-              <Card href={`/posts/${post.slug}/`} frontmatter={post.data} />
+              <Card post={post} />
             ))}
           </ul>
         </section>
@@ -78,10 +69,7 @@ const homePath = getRelativeLocaleUrl(locale, "");
             {recentPosts.map(
               (post, index) =>
                 index < postsConfig.perIndex && (
-                  <Card
-                    href={`/posts/${post.slug}/`}
-                    frontmatter={post.data}
-                  />
+                  <Card post={post} />
                 )
             )}
           </ul>
@@ -92,7 +80,7 @@ const homePath = getRelativeLocaleUrl(locale, "");
     <div class="my-8 text-center">
       <LinkButton href="/posts/">
         Wszystkie wpisy
-        <IconArrowRight className="inline-block" />
+        <IconArrowRight class="inline-block" />
       </LinkButton>
     </div>
   </main>
