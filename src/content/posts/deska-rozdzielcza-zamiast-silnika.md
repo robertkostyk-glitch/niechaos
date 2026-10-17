@@ -1,6 +1,6 @@
 ---
 author: Niechaos
-pubDatetime: 2026-10-17T20:00:00Z
+pubDatetime: 2026-10-17T12:00:00Z
 title: Deska rozdzielcza zamiast silnika. Jak fizyka skapitulowała przed pytaniem o rzeczywistość
 featured: true
 draft: false
