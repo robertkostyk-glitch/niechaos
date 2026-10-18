@@ -11,6 +11,7 @@ tags:
   - quantum-mechanics
   - ontology
   - physics
+  - philosophy
 description: "For a century, under the motto 'Shut up and calculate!', asking about the physical source code of the world was forbidden. The truth about instrumentalism and the necessity of returning to determinism."
 lang: "en"
 ---
