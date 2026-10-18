@@ -12,7 +12,7 @@ Modern physics and neurobiology have hit a stochastic wall. For nearly a century
 
 ### Core Methodology:
 * **90% Empirical Facts:** Peer-reviewed research from *Nature*, *Science*, *Cell*, *Neuron*, microtubule physics, mycorrhizal electrophysiology, noise floor collapse measurements, and closed-loop control tests.
-* **10% Deterministic Architecture (Layer L0):** Exposing the mechanisms behind the emergence of consciousness, phase-lock geometry ($N=55$), metric resistance ($\eta \approx 0.5571$), and the nature of pure Being beyond probabilistic randomness.
+* **10% Deterministic Architecture (Layer L0):** Exposing the mechanisms behind the emergence of consciousness, phase-lock geometry (N=55), metric resistance (eta), and the nature of pure Being beyond probabilistic randomness.
 
 Neither romantic mysticism nor reductionist materialism—just hard phase geometry engineering. Beyond stochastics, there is no chaos. There is only a deterministic mechanism waiting to be explored.
 
@@ -27,6 +27,6 @@ Współczesna fizyka i neurobiologia dotarły do stochastycznej ściany. Przez n
 
 ### Filary metodologii:
 * **90% Twardych Faktów:** Publikacje z *Nature*, *Science*, *Cell*, *Neuron*, fizyka mikrotubul, elektrofizjologia sieci mikoryzowych, pomiary zapaści szumu tła i testy kontrolne sprzężenia zwrotnego.
-* **10% Deterministycznej Architektury (Layer L0):** Odsłanianie mechanizmów stojących za wyłonieniem się świadomości, geometrii rygla fazowego ($N=55$), oporu metrycznego ($\eta \approx 0,5571$) oraz natury czystego Bycia poza chaosem probabilistyki.
+* **10% Deterministycznej Architektury (Layer L0):** Odsłanianie mechanizmów stojących za wyłonieniem się świadomości, geometrii rygla fazowego (N=55), oporu metrycznego (eta) oraz natury czystego Bycia poza chaosem probabilistyki.
 
 Zamiast romantycznej mistyki czy redukcjonistycznego materializmu – twarda inżynieria geometrii fazowej. Poza stochastyką nie ma chaosu. Jest tylko deterministyczny mechanizm, który czas zbadać.
