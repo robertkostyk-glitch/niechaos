@@ -13,6 +13,6 @@ Współczesna fizyka i neurobiologia dotarły do stochastycznej ściany. Przez n
 ### Filary naszej metodologii:
 
 * **90% Twardych Faktów:** Publikacje z *Nature*, *Science*, *Cell*, *Neuron*, fizyka mikrotubul, elektrofizjologia sieci mikoryzowych, pomiary zapaści szumu tła i testy kontrolne sprzężenia zwrotnego.
-* **10% Deterministycznej Architektury (Layer L0):** Odsłanianie mechanizmów stojących za wyłonieniem się świadomości, geometrii rygla fazowego ($N=55$), oporu metrycznego ($\eta \approx 0,5571$) oraz natury czystego Bycia poza chaosem probabilistyki.
+* **10% Deterministycznej Architektura (Layer L0):** Odsłanianie mechanizmów stojących za wyłonieniem się świadomości, geometrii rygla fazowego ($N=55$), oporu metrycznego ($\eta \approx 0,5571$) oraz natury czystego Bycia poza chaosem probabilistyki.
 
 Zamiast romantycznej mistyki czy redukcjonistycznego materializmu – twarda inżynieria geometrii fazowej. Poza stochastyką nie ma chaosu. Jest tylko deterministyczny mechanizm, który czas zbadać.
