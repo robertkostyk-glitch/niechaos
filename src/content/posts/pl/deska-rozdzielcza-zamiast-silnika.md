@@ -12,8 +12,8 @@ tags:
   - physics
   - philosophy
 description: Przez sto lat pod hasłem „Shut up and calculate!” zakazywano pytań o fizyczny kod źródłowy świata. Prawda o instrumentalizmie i konieczności powrotu do determinizmu.
+lang: "pl"
 ---
-
 Oficjalna doktryna fizyki mikroświata od niemal stu lat sprowadza się do jednego, bezpardonowego hasła: „Zamknij się i licz!” (*Shut up and calculate!*). 
 
 Większość z nas żyje w przekonaniu, że mechanika kwantowa to ukoronowanie ludzkiego intelektu — ostateczna teoria, która wyjaśniła, jak wszechświat działa „pod maską”. Rzeczywistość jest zgoła inna: współczesna fizyka teoretyczna w warstwie interpretacyjnej od stu lat metodycznie milczy na temat tego, CZYM w swojej istocie JEST rzeczywistość i JAK naprawdę funkcjonuje pod spodem.
