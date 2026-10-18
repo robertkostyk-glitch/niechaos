@@ -1,17 +1,18 @@
 ---
 author: Niechaos
 pubDatetime: 2026-10-17T12:00:00Z
-title: Deska rozdzielcza zamiast silnika. Jak fizyka skapitulowała przed pytaniem o rzeczywistość
+title: "Deska rozdzielcza zamiast silnika. Jak fizyka skapitulowała przed pytaniem o rzeczywistość"
+postSlug: deska-rozdzielcza-zamiast-silnika
 featured: true
 draft: false
 tags:
-- substrate
+  - substrate
   - determinism
   - quantum-mechanics
   - ontology
   - physics
   - philosophy
-description: Przez sto lat pod hasłem „Shut up and calculate!” zakazywano pytań o fizyczny kod źródłowy świata. Prawda o instrumentalizmie i konieczności powrotu do determinizmu.
+description: "Przez sto lat pod hasłem 'Shut up and calculate!' zakazywano pytań o fizyczny kod źródłowy świata. Prawda o instrumentalizmie i konieczności powrotu do determinizmu."
 lang: "pl"
 ---
 Oficjalna doktryna fizyki mikroświata od niemal stu lat sprowadza się do jednego, bezpardonowego hasła: „Zamknij się i licz!” (*Shut up and calculate!*). 
