@@ -1,6 +1,6 @@
 ---
-author: RMAK
-pubDatetime: 2026-10-17T00:00:00Z
+author: Niechaos
+pubDatetime: 2024-10-18T12:00:00Z
 title: "A Dashboard Instead of an Engine: How Physics Surrendered the Question of Reality"
 postSlug: dashboard-instead-of-engine
 featured: true
@@ -12,7 +12,7 @@ tags:
   - ontology
   - physics
   - philosophy
-description: "For a century, under the motto 'Shut up and calculate!', asking about the physical source code of the world was forbidden. The truth about instrumentalism and the necessity of returning to determinism."
+description: "For a century, under the motto Shut up and calculate, asking about the physical source code of the world was forbidden."
 lang: "en"
 ---
 
