@@ -5,11 +5,12 @@ title: Deska rozdzielcza zamiast silnika. Jak fizyka skapitulowała przed pytani
 featured: true
 draft: false
 tags:
-  - substrat
-  - determinizm
-  - mechanika kwantowa
-  - ontologia
-  - fizyka
+- substrate
+  - determinism
+  - quantum-mechanics
+  - ontology
+  - physics
+  - philosophy
 description: Przez sto lat pod hasłem „Shut up and calculate!” zakazywano pytań o fizyczny kod źródłowy świata. Prawda o instrumentalizmie i konieczności powrotu do determinizmu.
 ---
 
