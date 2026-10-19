@@ -1,6 +1,6 @@
 ---
-title: About
-description: Challenging the Stochastic Wall in AI, Quantum Biology & Philosophy.
+layout: ../../layouts/AboutLayout.astro
+title: "About"
 ---
 
 ## NIECHAOS
@@ -13,7 +13,7 @@ Modern physics, neurobiology, and the philosophy of science have hit a stochasti
 #### Methodology (105% Total):
 
 * **90% Empirical Facts:** Peer-reviewed research from *Nature*, *Science*, *Cell*, *Neuron*, microtubule physics, mycorrhizal electrophysiology, noise floor collapse measurements, and closed-loop control tests. Zero speculation at the raw data level.
-* **10% Substrate Architecture:** Exposing the underlying carrier mechanics, phase-lock geometry ($N=55$), and metric resistance ($\eta$) where mainstream models settle for probability.
+* **10% Substrate Architecture:** Exposing the underlying carrier mechanics, phase-lock geometry (N=55), and metric resistance (η) where mainstream models settle for probability.
 * **5% Philosophy & Authorial Commentary:** Stripping away the academic armor. Direct, unfiltered perspectives on ontology, time, consciousness, and the edges of existence.
 
 *(Yes, that adds up to 105%. Consider the extra 5% a deliberate margin for phenomena that normalized probability distributions fail to contain).*
