@@ -1,0 +1,30 @@
+---
+import { type CollectionEntry, getCollection, render } from "astro:content";
+import PostLayout from "@/layouts/PostLayout.astro";
+import getSortedPosts from "@/utils/getSortedPosts";
+
+export async function getStaticPaths() {
+  const posts = await getCollection("posts", ({ id }) => id.startsWith("en/"));
+  const sortedPosts = getSortedPosts(posts);
+
+  return sortedPosts.map(post => {
+    // Usunięcie przedrostka 'en/' ze sluga wewnątrz ścieżki /en/posts/
+    const slug = post.id.replace(/^en\//, "").replace(/\.[^/.]+$/, "");
+    return {
+      params: { slug },
+      props: { post },
+    };
+  });
+}
+
+interface Props {
+  post: CollectionEntry<"posts">;
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+---
+
+<PostLayout post={post}>
+  <Content />
+</PostLayout>
