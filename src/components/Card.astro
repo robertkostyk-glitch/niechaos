@@ -11,6 +11,9 @@ type Props = {
 const { variant: Heading = "h2", id, data, filePath } = Astro.props;
 
 const { title, description, ...props } = data;
+const isEn = id.startsWith("en/") || Astro.url.pathname.startsWith("/en");
+const cleanSlug = id.replace(/^(en|pl)\//, "");
+const postHref = isEn ? `/en/posts/${cleanSlug}/` : `/posts/${cleanSlug}/`;
 ---
 
 <li class="my-6">
