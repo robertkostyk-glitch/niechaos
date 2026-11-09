@@ -2,7 +2,6 @@
 author: Niechaos
 pubDatetime: 2024-10-18T12:00:00Z
 title: "A Dashboard Instead of an Engine: How Physics Surrendered the Question of Reality"
-postSlug: dashboard-instead-of-engine
 featured: true
 draft: false
 tags:
@@ -12,8 +11,7 @@ tags:
   - ontology
   - physics
   - philosophy
-description: "For a century, under the motto Shut up and calculate, asking about the physical source code of the world was forbidden."
-lang: "en"
+description: "For a century, under the motto 'Shut up and calculate', asking about the physical source code of the world was forbidden."
 ---
 
 The official doctrine of micro-world physics for nearly a century boils down to a single, ruthless imperative: **"Shut up and calculate!"**
