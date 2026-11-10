@@ -8,18 +8,34 @@ import { getPostSlug } from "@/utils/getPostPaths";
 import config from "@/config";
 
 export async function getStaticPaths() {
-  if (!config.features.dynamicOgImage) {
-    return [];
-  }
+  const posts = await getCollection("posts", ({ id }) => !id.startsWith("en/"));
+  const sortedPosts = getSortedPosts(posts);
 
-  const posts = await getCollection("posts").then(p =>
-    p.filter(({ data }) => !data.draft && !data.ogImage)
-  );
-
-  return posts.map(post => ({
-    params: { slug: getPostSlug(post.id, post.filePath) },
-    props: post,
-  }));
+  return sortedPosts.map((post, index) => {
+    const rawSlug = post.id.replace(/\.[^/.]+$/, "").replace(/^(pl\/)/, "");
+    return {
+      params: { slug: rawSlug },
+      props: {
+        post,
+        prevPost:
+          index < sortedPosts.length - 1
+            ? {
+                id: sortedPosts[index + 1].id,
+                title: sortedPosts[index + 1].data.title,
+                filePath: sortedPosts[index + 1].filePath,
+              }
+            : null,
+        nextPost:
+          index > 0
+            ? {
+                id: sortedPosts[index - 1].id,
+                title: sortedPosts[index - 1].data.title,
+                filePath: sortedPosts[index - 1].filePath,
+              }
+            : null,
+      },
+    };
+  });
 }
 
 export const GET: APIRoute = async ({ props, url }) => {
