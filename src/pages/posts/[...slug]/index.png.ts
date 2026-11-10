@@ -9,33 +9,11 @@ import config from "@/config";
 
 export async function getStaticPaths() {
   const posts = await getCollection("posts", ({ id }) => !id.startsWith("en/"));
-  const sortedPosts = getSortedPosts(posts);
 
-  return sortedPosts.map((post, index) => {
-    const rawSlug = post.id.replace(/\.[^/.]+$/, "").replace(/^(pl\/)/, "");
-    return {
-      params: { slug: rawSlug },
-      props: {
-        post,
-        prevPost:
-          index < sortedPosts.length - 1
-            ? {
-                id: sortedPosts[index + 1].id,
-                title: sortedPosts[index + 1].data.title,
-                filePath: sortedPosts[index + 1].filePath,
-              }
-            : null,
-        nextPost:
-          index > 0
-            ? {
-                id: sortedPosts[index - 1].id,
-                title: sortedPosts[index - 1].data.title,
-                filePath: sortedPosts[index - 1].filePath,
-              }
-            : null,
-      },
-    };
-  });
+  return posts.map(post => ({
+    params: { slug: post.id.replace(/\.[^/.]+$/, "").replace(/^(pl\/)/, "") },
+    props: post,
+  }));
 }
 
 export const GET: APIRoute = async ({ props, url }) => {
